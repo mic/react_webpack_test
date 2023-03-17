@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "./build/",
+      "noImplicitAny": true,
+      "target": "es6",
+      "module": "esnext",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "src/index.tsx"
+    ]
+  }
